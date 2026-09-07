@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>应用下载 · App Downloads</title>
+<meta name="description" content="开发者本人的应用安装包分发站，提供各项目 Android 安装包的长期固定下载链接。">
+<style>
+  :root{color-scheme:light dark;--bg:#f6f8fa;--card:#fff;--fg:#1f2328;--sub:#5f6368;--line:#d8dee4;--accent:#0969da;--chip:#eef1f4}
+  @media (prefers-color-scheme:dark){:root{--bg:#0d1117;--card:#161b22;--fg:#e6edf3;--sub:#9198a1;--line:#30363d;--accent:#58a6ff;--chip:#21262d}}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.75 -apple-system,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;padding:40px 16px 64px}
+  .wrap{max-width:720px;margin:0 auto}
+  h1{font-size:25px;margin:0 0 6px}
+  .desc{color:var(--sub);font-size:14.5px;margin:0 0 26px}
+  .card{display:flex;align-items:center;gap:16px;background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px 20px;margin-bottom:14px;text-decoration:none;color:inherit}
+  .card:hover{border-color:var(--accent)}
+  .card img{width:56px;height:56px;border-radius:14px;box-shadow:0 2px 8px rgba(0,0,0,.15);flex:none}
+  .card .meta{flex:1;min-width:0}
+  .card h2{font-size:17px;margin:0 0 2px}
+  .card p{font-size:13.5px;color:var(--sub);margin:0}
+  .arrow{color:var(--accent);font-weight:700;font-size:20px;flex:none}
+  footer{text-align:center;color:var(--sub);font-size:12.5px;margin-top:30px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>应用下载</h1>
+  <p class="desc">每个项目拥有独立目录与独立下载页，安装包使用固定文件名，链接长期有效。</p>
+
+  <a class="card" href="./aquakeeper/">
+    <img src="./aquakeeper/icon.png" alt="AquaKeeper">
+    <div class="meta">
+      <h2>鱼缸管家 AquaKeeper</h2>
+      <p>水质检测 · 健康评分 · 处理建议 · 8 个水质计算器 · v1.0.1</p>
+    </div>
+    <span class="arrow">›</span>
+  </a>
+
+  <footer>本页由开发者本人维护 · 安装包均来自本账号发布</footer>
+</div>
+</body>
+</html>
